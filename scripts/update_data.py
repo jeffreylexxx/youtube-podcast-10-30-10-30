@@ -23,6 +23,8 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "config" / "research_config.json"
 SITE_DATA = ROOT / "site" / "data"
 LATEST_PATH = SITE_DATA / "latest.json"
+ROOT_DATA = ROOT / "data"
+ROOT_LATEST_PATH = ROOT_DATA / "latest.json"
 HISTORY_DIR = SITE_DATA / "history"
 API_BASE = "https://www.googleapis.com/youtube/v3"
 
@@ -498,8 +500,12 @@ def methodology_text(live: bool) -> str:
 
 def save_snapshot(snapshot: dict[str, Any], write_history: bool) -> None:
     SITE_DATA.mkdir(parents=True, exist_ok=True)
+    ROOT_DATA.mkdir(parents=True, exist_ok=True)
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
     with LATEST_PATH.open("w", encoding="utf-8") as f:
+        json.dump(snapshot, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    with ROOT_LATEST_PATH.open("w", encoding="utf-8") as f:
         json.dump(snapshot, f, ensure_ascii=False, indent=2)
         f.write("\n")
     if write_history:
