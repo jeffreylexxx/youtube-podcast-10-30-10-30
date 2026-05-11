@@ -2,6 +2,16 @@ name: Update YouTube podcast dashboard
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "index.html"
+      - "site/**"
+      - "data/**"
+      - "config/**"
+      - "scripts/**"
+      - ".github/workflows/update-dashboard.yml"
   schedule:
     - cron: "30 18 * * *"
 
