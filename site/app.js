@@ -89,6 +89,7 @@ function computeDerived(data) {
   const avg = mean(views);
   const cv = avg ? stddev(views) / avg : 0;
   const topicGroups = groupBy(videos, "topic");
+  const industryGroups = groupBy(videos, "guestIndustry");
   const topicStats = Object.entries(topicGroups)
     .map(([topic, rows]) => ({
       topic,
@@ -98,12 +99,21 @@ function computeDerived(data) {
       score: percentile(rows.map((v) => v.viewCount || 0), 0.5) / Math.sqrt(rows.length)
     }))
     .sort((a, b) => b.p50 - a.p50);
+  const industryStats = Object.entries(industryGroups)
+    .map(([industry, rows]) => ({
+      industry,
+      count: rows.length,
+      p50: percentile(rows.map((v) => v.viewCount || 0), 0.5),
+      p90: percentile(rows.map((v) => v.viewCount || 0), 0.9)
+    }))
+    .sort((a, b) => b.p50 - a.p50);
   return {
     channels,
     videos,
     views,
     cv,
     topicStats,
+    industryStats,
     opportunityTopic: topicStats.length ? topicStats.sort((a, b) => b.score - a.score)[0].topic : "--"
   };
 }
@@ -339,6 +349,36 @@ function renderResearchCharts(data, derived) {
       }
     })
   });
+
+  const industryStats = [...derived.industryStats].sort((a, b) => b.count - a.count);
+  drawChart("guestPerformanceChart", {
+    type: "bar",
+    data: {
+      labels: industryStats.map((d) => d.industry),
+      datasets: [
+        { label: "P50", data: industryStats.map((d) => Math.round(d.p50)), backgroundColor: palette[5], borderRadius: 5 },
+        { label: "P90", data: industryStats.map((d) => Math.round(d.p90)), backgroundColor: palette[7], borderRadius: 5 }
+      ]
+    },
+    options: baseOptions({
+      indexAxis: "y",
+      scales: {
+        x: { ticks: { callback: compact }, grid: { color: "#eef2f6" } },
+        y: { grid: { display: false } }
+      },
+      plugins: {
+        legend: { labels: { boxWidth: 12, color: "#18202a" } },
+        tooltip: {
+          callbacks: {
+            afterBody: (items) => {
+              const row = industryStats[items[0].dataIndex];
+              return `样本数：${row.count}`;
+            }
+          }
+        }
+      }
+    })
+  });
 }
 
 function renderHitRows(videos) {
@@ -382,8 +422,7 @@ function renderAdvice(data) {
 }
 
 async function main() {
-  const response = await fetch("data/latest.json", { cache: "no-store" });
-  const data = await response.json();
+  const data = await loadDashboardData();
   const derived = computeDerived(data);
   setText("snapshotMode", data.snapshot_mode === "live" ? "Live 最新快照" : "Demo 演示快照");
   setText("generatedAt", dateText(data.generated_at));
@@ -402,3 +441,33 @@ async function main() {
 main().catch((error) => {
   document.body.innerHTML = `<main><section class="notice">数据加载失败：${error.message}</section></main>`;
 });
+
+async function loadDashboardData() {
+  const candidates = [
+    "data/latest.json",
+    "./data/latest.json",
+    "../data/latest.json",
+    "site/data/latest.json",
+    "./site/data/latest.json"
+  ];
+  const errors = [];
+  for (const url of candidates) {
+    try {
+      const response = await fetch(`${url}?v=${Date.now()}`, { cache: "no-store" });
+      const text = await response.text();
+      if (!response.ok) {
+        errors.push(`${url}: HTTP ${response.status}`);
+        continue;
+      }
+      const trimmed = text.trim();
+      if (!trimmed.startsWith("{")) {
+        errors.push(`${url}: 返回的不是 JSON`);
+        continue;
+      }
+      return JSON.parse(trimmed);
+    } catch (error) {
+      errors.push(`${url}: ${error.message}`);
+    }
+  }
+  throw new Error(`没有找到可用的数据快照。请确认已上传 site/data/latest.json 或 data/latest.json。${errors.join("；")}`);
+}
