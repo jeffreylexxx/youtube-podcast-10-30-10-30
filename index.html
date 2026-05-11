@@ -4,24 +4,231 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>华语 YouTube 长视频播客对话节目研究</title>
-    <style>
-      html,
-      body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        background: #f6f8fb;
-      }
-
-      iframe {
-        display: block;
-        width: 100%;
-        height: 100vh;
-        border: 0;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js" defer></script>
+    <script src="app.js" defer></script>
   </head>
   <body>
-    <iframe src="site/" title="华语 YouTube 长视频播客对话节目研究"></iframe>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">YouTube Chinese Video Podcast Research</p>
+        <h1>华语长视频播客对话节目数据统计分析</h1>
+      </div>
+      <div class="snapshot">
+        <span id="snapshotMode">读取中</span>
+        <strong id="generatedAt">--</strong>
+      </div>
+    </header>
+
+    <main>
+      <section class="notice" id="modeNotice"></section>
+
+      <section class="metric-grid" aria-label="核心指标">
+        <article class="metric">
+          <span>频道样本</span>
+          <strong id="channelCount">--</strong>
+          <small>种子频道 + 每日发现</small>
+        </article>
+        <article class="metric">
+          <span>视频样本</span>
+          <strong id="videoCount">--</strong>
+          <small>10 分钟以上对谈类</small>
+        </article>
+        <article class="metric">
+          <span>播放 P50</span>
+          <strong id="viewsP50">--</strong>
+          <small>样本视频中位数</small>
+        </article>
+        <article class="metric">
+          <span>播放 P90</span>
+          <strong id="viewsP90">--</strong>
+          <small>爆款识别阈值</small>
+        </article>
+        <article class="metric">
+          <span>播放变异系数</span>
+          <strong id="viewCV">--</strong>
+          <small>越高代表分化越强</small>
+        </article>
+        <article class="metric">
+          <span>机会话题</span>
+          <strong id="opportunityTopic">--</strong>
+          <small>高播放且竞争不拥挤</small>
+        </article>
+      </section>
+
+      <section class="dashboard-grid">
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>时长结构占比</h2>
+            <p>按 10-30 分钟、30-60 分钟、1-3 小时和 3 小时以上分桶。</p>
+          </div>
+          <canvas id="durationChart"></canvas>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>话题分类</h2>
+            <p>识别高频内容范畴。</p>
+          </div>
+          <canvas id="topicChart"></canvas>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>嘉宾行业</h2>
+            <p>观察被邀请嘉宾的行业分布。</p>
+          </div>
+          <canvas id="industryChart"></canvas>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>频道竞争格局</h2>
+            <p>仅展示有有效视频样本的频道。横轴订阅量，纵轴样本中位播放，采用双对数尺度避免离群频道压扁主体样本。</p>
+          </div>
+          <canvas id="scatterChart"></canvas>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>频道播放效率</h2>
+            <p>样本中位播放 / 订阅量，识别小频道高转化。</p>
+          </div>
+          <canvas id="efficiencyChart"></canvas>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>你的频道竞争力</h2>
+            <p>结合教授、高管、上海外国人和科技/AI/社会研究定位。</p>
+          </div>
+          <canvas id="radarChart"></canvas>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>播放量分布</h2>
+            <p>用对数区间看长尾程度，判断普通视频、腰部视频和爆款之间的距离。</p>
+          </div>
+          <canvas id="viewDistributionChart"></canvas>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>话题表现 P50 / P90</h2>
+            <p>同一话题下的中位播放和头部播放，用来判断稳定性与爆发力。</p>
+          </div>
+          <canvas id="topicPerformanceChart"></canvas>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>时长与播放</h2>
+            <p>不同长度区间的中位播放，观察 1 小时拆集是否合理。</p>
+          </div>
+          <canvas id="durationPerformanceChart"></canvas>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>互动率</h2>
+            <p>每千次播放带来的点赞和评论，衡量内容参与度。</p>
+          </div>
+          <canvas id="engagementChart"></canvas>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>发布时间趋势</h2>
+            <p>按月份统计样本视频数量和中位播放，观察供给周期与表现。</p>
+          </div>
+          <canvas id="publishTimelineChart"></canvas>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>选题机会矩阵</h2>
+            <p>横轴为话题供给数量，纵轴为中位播放，气泡越大表示 P90 越高。</p>
+          </div>
+          <canvas id="opportunityChart"></canvas>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>嘉宾行业表现</h2>
+            <p>按嘉宾行业统计 P50/P90，判断哪类嘉宾更稳定、更容易出爆款。</p>
+          </div>
+          <canvas id="guestPerformanceChart"></canvas>
+        </article>
+      </section>
+
+      <section class="panel table-panel">
+        <div class="panel-head">
+          <h2>爆款播客视频</h2>
+          <p>满足样本 P90 以上或高于本频道中位播放 3 倍的视频。</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>视频</th>
+                <th>频道</th>
+                <th>播放</th>
+                <th>时长</th>
+                <th>话题</th>
+                <th>嘉宾行业</th>
+                <th>爆款原因</th>
+              </tr>
+            </thead>
+            <tbody id="hitRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel table-panel">
+        <div class="panel-head">
+          <h2>频道样本</h2>
+          <p>订阅、频道总播放、样本中位播放与增长监测。</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>频道</th>
+                <th>订阅</th>
+                <th>频道总播放</th>
+                <th>样本视频数</th>
+                <th>样本中位播放</th>
+                <th>订阅增长</th>
+              </tr>
+            </thead>
+            <tbody id="channelRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="insights-grid">
+        <article class="panel">
+          <div class="panel-head">
+            <h2>给你的节目建议</h2>
+          </div>
+          <div id="positioningAdvice" class="copy-list"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-head">
+            <h2>避坑与踩雷点</h2>
+          </div>
+          <div id="avoidAdvice" class="copy-list danger"></div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>方法与来源</h2>
+        </div>
+        <p id="methodology" class="methodology"></p>
+        <div id="sources" class="sources"></div>
+      </section>
+    </main>
   </body>
 </html>
