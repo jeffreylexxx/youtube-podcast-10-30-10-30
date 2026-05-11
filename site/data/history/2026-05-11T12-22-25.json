@@ -1,0 +1,2713 @@
+{
+  "snapshot_mode": "demo",
+  "generated_at": "2026-05-11T12:22:25Z",
+  "methodology": "当前为演示快照：由于本地或仓库尚未配置 YOUTUBE_API_KEY，页面使用种子频道和模拟分布展示分析结构。配置 GitHub Secret 后，GitHub Actions 会每天生成 live 快照并替换这些示例数据。",
+  "project": {
+    "title": "华语 YouTube 长视频播客对话节目研究",
+    "description": "面向中文语言为主、华人群体观看的 YouTube 视频播客/访谈/圆桌类长视频。重点观察 10 分钟以上、两人或多人坐谈形式的内容表现。",
+    "owner_channel_positioning": {
+      "guest_types": [
+        "大学教授",
+        "商业公司高管",
+        "在上海工作的外国人"
+      ],
+      "industries": [
+        "科技",
+        "人工智能",
+        "数字制造",
+        "社会研究",
+        "媒体"
+      ],
+      "publishing_plan": "每位嘉宾录制约 3 小时对谈，拆分为 3 集约 1 小时节目陆续上传。"
+    }
+  },
+  "channels": [
+    {
+      "id": "demo-channel-2",
+      "title": "半球观察",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2023-01-01T00:00:00Z",
+      "thumbnail": "",
+      "subscriberCount": 76529,
+      "viewCount": 7729429,
+      "videoCount": 146,
+      "seeded": true,
+      "source_url": "https://linktr.ee/banqiu",
+      "notes": "中日美科技与社会生活对谈。",
+      "url": "https://linktr.ee/banqiu",
+      "subscriberGrowth": 113,
+      "viewGrowth": 28294,
+      "sampleVideoCount": 11,
+      "sampleMedianViews": 68420
+    },
+    {
+      "id": "demo-channel-3",
+      "title": "蜉蝣天地 Meanders",
+      "description": "视频播客，文化、媒介、社会观察。",
+      "publishedAt": "2023-01-01T00:00:00Z",
+      "thumbnail": "",
+      "subscriberCount": 52207,
+      "viewCount": 4698630,
+      "videoCount": 149,
+      "seeded": true,
+      "source_url": "https://fuyoutiandi.com/0",
+      "notes": "视频播客，文化、媒介、社会观察。",
+      "url": "https://fuyoutiandi.com/0",
+      "subscriberGrowth": 39,
+      "viewGrowth": 10441,
+      "sampleVideoCount": 7,
+      "sampleMedianViews": 45522
+    },
+    {
+      "id": "demo-channel-6",
+      "title": "Chinese Podcast With Shenglan",
+      "description": "中文学习、社会文化解释类长音视频。",
+      "publishedAt": "2023-01-01T00:00:00Z",
+      "thumbnail": "",
+      "subscriberCount": 39862,
+      "viewCount": 6138748,
+      "videoCount": 64,
+      "seeded": true,
+      "source_url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+      "notes": "中文学习、社会文化解释类长音视频。",
+      "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+      "subscriberGrowth": 85,
+      "viewGrowth": 108065,
+      "sampleVideoCount": 9,
+      "sampleMedianViews": 41574
+    },
+    {
+      "id": "demo-channel-4",
+      "title": "Dashu Mandarin Podcast",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2023-01-01T00:00:00Z",
+      "thumbnail": "",
+      "subscriberCount": 35374,
+      "viewCount": 5058482,
+      "videoCount": 138,
+      "seeded": true,
+      "source_url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "notes": "中文学习者向三人聊天式视频播客。",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "subscriberGrowth": 230,
+      "viewGrowth": 54304,
+      "sampleVideoCount": 12,
+      "sampleMedianViews": 32296
+    },
+    {
+      "id": "demo-channel-1",
+      "title": "出海相对论",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2023-01-01T00:00:00Z",
+      "thumbnail": "",
+      "subscriberCount": 29246,
+      "viewCount": 5001066,
+      "videoCount": 298,
+      "seeded": true,
+      "source_url": "https://www.podchaser.com/podcasts/-5133355",
+      "notes": "出海、AI、SaaS、科技商业深度对谈。",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "subscriberGrowth": 342,
+      "viewGrowth": 17124,
+      "sampleVideoCount": 12,
+      "sampleMedianViews": 28082
+    },
+    {
+      "id": "demo-channel-7",
+      "title": "Stan的聊政事兒頻道",
+      "description": "时政新闻讨论类节目。",
+      "publishedAt": "2023-01-01T00:00:00Z",
+      "thumbnail": "",
+      "subscriberCount": 28582,
+      "viewCount": 2686708,
+      "videoCount": 122,
+      "seeded": true,
+      "source_url": "https://podcasts.apple.com/us/podcast/stan%E7%9A%84%E8%81%8A%E6%94%BF%E4%BA%8B%E5%85%92%E9%A0%BB%E9%81%93/id1653368960",
+      "notes": "时政新闻讨论类节目。",
+      "url": "https://podcasts.apple.com/us/podcast/stan%E7%9A%84%E8%81%8A%E6%94%BF%E4%BA%8B%E5%85%92%E9%A0%BB%E9%81%93/id1653368960",
+      "subscriberGrowth": 160,
+      "viewGrowth": 97661,
+      "sampleVideoCount": 6,
+      "sampleMedianViews": 27045
+    },
+    {
+      "id": "demo-channel-8",
+      "title": "西雅图中文电台 时事三人谈",
+      "description": "海外华人时事圆桌。",
+      "publishedAt": "2023-01-01T00:00:00Z",
+      "thumbnail": "",
+      "subscriberCount": 9168,
+      "viewCount": 1466880,
+      "videoCount": 136,
+      "seeded": true,
+      "source_url": "https://chineseradioseattle.com/newstalk_by_three/",
+      "notes": "海外华人时事圆桌。",
+      "url": "https://chineseradioseattle.com/newstalk_by_three/",
+      "subscriberGrowth": 370,
+      "viewGrowth": 110633,
+      "sampleVideoCount": 6,
+      "sampleMedianViews": 6558
+    },
+    {
+      "id": "demo-channel-5",
+      "title": "Money Manta",
+      "description": "美股、投资、公司研究。",
+      "publishedAt": "2023-01-01T00:00:00Z",
+      "thumbnail": "",
+      "subscriberCount": 6885,
+      "viewCount": 722925,
+      "videoCount": 265,
+      "seeded": true,
+      "source_url": "https://podbay.fm/p/money-manta",
+      "notes": "美股、投资、公司研究。",
+      "url": "https://podbay.fm/p/money-manta",
+      "subscriberGrowth": 205,
+      "viewGrowth": 83014,
+      "sampleVideoCount": 7,
+      "sampleMedianViews": 8003
+    }
+  ],
+  "videos": [
+    {
+      "id": "demo-video-2-4",
+      "url": "https://linktr.ee/banqiu",
+      "channelId": "demo-channel-2",
+      "channelTitle": "半球观察",
+      "title": "圆桌：国际局势变化如何影响华人生活？ | 国际人才 嘉宾 EP04",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2026-04-25T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 7600,
+      "durationLabel": "2h 06m",
+      "durationBin": "2-3小时",
+      "viewCount": 757589,
+      "likeCount": 9477,
+      "commentCount": 6605,
+      "topic": "时政国际",
+      "topics": [
+        "时政国际"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 179837,
+      "channelViewIndex": 11.07,
+      "isHit": true,
+      "hitReasons": [
+        "样本 P90 以上",
+        "高于本频道中位数 3 倍",
+        "高需求话题：时政国际"
+      ]
+    },
+    {
+      "id": "demo-video-6-1",
+      "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+      "channelId": "demo-channel-6",
+      "channelTitle": "Chinese Podcast With Shenglan",
+      "title": "美股与宏观周期：普通投资者该看什么信号？ | 国际人才 嘉宾 EP01",
+      "description": "中文学习、社会文化解释类长音视频。",
+      "publishedAt": "2025-12-07T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 312216,
+      "likeCount": 13828,
+      "commentCount": 2018,
+      "topic": "财经投资",
+      "topics": [
+        "财经投资"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 83268,
+      "channelViewIndex": 7.51,
+      "isHit": true,
+      "hitReasons": [
+        "样本 P90 以上",
+        "高于本频道中位数 3 倍"
+      ]
+    },
+    {
+      "id": "demo-video-2-6",
+      "url": "https://linktr.ee/banqiu",
+      "channelId": "demo-channel-2",
+      "channelTitle": "半球观察",
+      "title": "美股与宏观周期：普通投资者该看什么信号？ | 科技公司 嘉宾 EP06",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2025-11-17T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 9300,
+      "durationLabel": "2h 35m",
+      "durationBin": "2-3小时",
+      "viewCount": 130931,
+      "likeCount": 5169,
+      "commentCount": 244,
+      "topic": "财经投资",
+      "topics": [
+        "财经投资"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 16191,
+      "channelViewIndex": 1.91,
+      "isHit": true,
+      "hitReasons": [
+        "样本 P90 以上",
+        "嘉宾行业具备传播势能：科技公司"
+      ]
+    },
+    {
+      "id": "demo-video-3-3",
+      "url": "https://fuyoutiandi.com/0",
+      "channelId": "demo-channel-3",
+      "channelTitle": "蜉蝣天地 Meanders",
+      "title": "内容创作者为什么越来越需要长期主义？ | 金融投资 嘉宾 EP03",
+      "description": "视频播客，文化、媒介、社会观察。",
+      "publishedAt": "2025-07-04T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 9300,
+      "durationLabel": "2h 35m",
+      "durationBin": "2-3小时",
+      "viewCount": 118321,
+      "likeCount": 4379,
+      "commentCount": 1012,
+      "topic": "媒体与内容",
+      "topics": [
+        "媒体与内容"
+      ],
+      "guestIndustry": "金融投资",
+      "guestIndustries": [
+        "金融投资"
+      ],
+      "viewGrowth": 25974,
+      "channelViewIndex": 2.6,
+      "isHit": true,
+      "hitReasons": [
+        "样本 P90 以上",
+        "嘉宾行业具备传播势能：金融投资"
+      ]
+    },
+    {
+      "id": "demo-video-2-10",
+      "url": "https://linktr.ee/banqiu",
+      "channelId": "demo-channel-2",
+      "channelTitle": "半球观察",
+      "title": "在上海工作的外国人如何理解中国职场？ | 金融投资 嘉宾 EP10",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2025-11-15T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 103143,
+      "likeCount": 3188,
+      "commentCount": 311,
+      "topic": "语言与跨文化",
+      "topics": [
+        "语言与跨文化"
+      ],
+      "guestIndustry": "金融投资",
+      "guestIndustries": [
+        "金融投资"
+      ],
+      "viewGrowth": 17069,
+      "channelViewIndex": 1.51,
+      "isHit": true,
+      "hitReasons": [
+        "样本 P90 以上",
+        "嘉宾行业具备传播势能：金融投资"
+      ]
+    },
+    {
+      "id": "demo-video-3-7",
+      "url": "https://fuyoutiandi.com/0",
+      "channelId": "demo-channel-3",
+      "channelTitle": "蜉蝣天地 Meanders",
+      "title": "和学者聊城市、青年与工作意义的变化 | 金融投资 嘉宾 EP07",
+      "description": "视频播客，文化、媒介、社会观察。",
+      "publishedAt": "2025-10-16T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 92712,
+      "likeCount": 2346,
+      "commentCount": 354,
+      "topic": "社会研究",
+      "topics": [
+        "社会研究"
+      ],
+      "guestIndustry": "金融投资",
+      "guestIndustries": [
+        "金融投资"
+      ],
+      "viewGrowth": 10055,
+      "channelViewIndex": 2.04,
+      "isHit": true,
+      "hitReasons": [
+        "样本 P90 以上",
+        "嘉宾行业具备传播势能：金融投资"
+      ]
+    },
+    {
+      "id": "demo-video-2-3",
+      "url": "https://linktr.ee/banqiu",
+      "channelId": "demo-channel-2",
+      "channelTitle": "半球观察",
+      "title": "出海公司如何找到第一批海外客户？ | 金融投资 嘉宾 EP03",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2026-03-14T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 85662,
+      "likeCount": 2196,
+      "commentCount": 589,
+      "topic": "商业与出海",
+      "topics": [
+        "商业与出海"
+      ],
+      "guestIndustry": "金融投资",
+      "guestIndustries": [
+        "金融投资"
+      ],
+      "viewGrowth": 16762,
+      "channelViewIndex": 1.25,
+      "isHit": true,
+      "hitReasons": [
+        "样本 P90 以上",
+        "嘉宾行业具备传播势能：金融投资",
+        "高需求话题：商业与出海"
+      ]
+    },
+    {
+      "id": "demo-video-1-1",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "和学者聊城市、青年与工作意义的变化 | 金融投资 嘉宾 EP01",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2025-05-21T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 7600,
+      "durationLabel": "2h 06m",
+      "durationBin": "2-3小时",
+      "viewCount": 84006,
+      "likeCount": 3771,
+      "commentCount": 153,
+      "topic": "社会研究",
+      "topics": [
+        "社会研究"
+      ],
+      "guestIndustry": "金融投资",
+      "guestIndustries": [
+        "金融投资"
+      ],
+      "viewGrowth": 6148,
+      "channelViewIndex": 2.99,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：金融投资"
+      ]
+    },
+    {
+      "id": "demo-video-2-1",
+      "url": "https://linktr.ee/banqiu",
+      "channelId": "demo-channel-2",
+      "channelTitle": "半球观察",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 高校/研究机构 嘉宾 EP01",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2025-06-03T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 1500,
+      "durationLabel": "25m",
+      "durationBin": "10-30分钟",
+      "viewCount": 81002,
+      "likeCount": 1106,
+      "commentCount": 151,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 22036,
+      "channelViewIndex": 1.18,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构",
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-2-8",
+      "url": "https://linktr.ee/banqiu",
+      "channelId": "demo-channel-2",
+      "channelTitle": "半球观察",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 制造业 嘉宾 EP08",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2026-01-06T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 1500,
+      "durationLabel": "25m",
+      "durationBin": "10-30分钟",
+      "viewCount": 68420,
+      "likeCount": 1134,
+      "commentCount": 584,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "制造业",
+      "guestIndustries": [
+        "制造业"
+      ],
+      "viewGrowth": 14829,
+      "channelViewIndex": 1.0,
+      "isHit": false,
+      "hitReasons": [
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-4-3",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "出海公司如何找到第一批海外客户？ | 制造业 嘉宾 EP03",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2025-08-22T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 58545,
+      "likeCount": 1593,
+      "commentCount": 151,
+      "topic": "商业与出海",
+      "topics": [
+        "商业与出海"
+      ],
+      "guestIndustry": "制造业",
+      "guestIndustries": [
+        "制造业"
+      ],
+      "viewGrowth": 14357,
+      "channelViewIndex": 1.81,
+      "isHit": false,
+      "hitReasons": [
+        "高需求话题：商业与出海"
+      ]
+    },
+    {
+      "id": "demo-video-3-6",
+      "url": "https://fuyoutiandi.com/0",
+      "channelId": "demo-channel-3",
+      "channelTitle": "蜉蝣天地 Meanders",
+      "title": "和学者聊城市、青年与工作意义的变化 | 金融投资 嘉宾 EP06",
+      "description": "视频播客，文化、媒介、社会观察。",
+      "publishedAt": "2025-10-09T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 6100,
+      "durationLabel": "1h 41m",
+      "durationBin": "1.5-2小时",
+      "viewCount": 57116,
+      "likeCount": 1843,
+      "commentCount": 93,
+      "topic": "社会研究",
+      "topics": [
+        "社会研究"
+      ],
+      "guestIndustry": "金融投资",
+      "guestIndustries": [
+        "金融投资"
+      ],
+      "viewGrowth": 1082,
+      "channelViewIndex": 1.25,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：金融投资"
+      ]
+    },
+    {
+      "id": "demo-video-4-2",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "出海公司如何找到第一批海外客户？ | 金融投资 嘉宾 EP02",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2025-06-20T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 3900,
+      "durationLabel": "1h 05m",
+      "durationBin": "1-1.5小时",
+      "viewCount": 55059,
+      "likeCount": 1482,
+      "commentCount": 170,
+      "topic": "商业与出海",
+      "topics": [
+        "商业与出海"
+      ],
+      "guestIndustry": "金融投资",
+      "guestIndustries": [
+        "金融投资"
+      ],
+      "viewGrowth": 5151,
+      "channelViewIndex": 1.7,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：金融投资",
+        "高需求话题：商业与出海"
+      ]
+    },
+    {
+      "id": "demo-video-4-6",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "内容创作者为什么越来越需要长期主义？ | 科技公司 嘉宾 EP06",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2025-06-09T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 52310,
+      "likeCount": 2283,
+      "commentCount": 355,
+      "topic": "媒体与内容",
+      "topics": [
+        "媒体与内容"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 11976,
+      "channelViewIndex": 1.62,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司"
+      ]
+    },
+    {
+      "id": "demo-video-8-2",
+      "url": "https://chineseradioseattle.com/newstalk_by_three/",
+      "channelId": "demo-channel-8",
+      "channelTitle": "西雅图中文电台 时事三人谈",
+      "title": "出海公司如何找到第一批海外客户？ | 金融投资 嘉宾 EP02",
+      "description": "海外华人时事圆桌。",
+      "publishedAt": "2025-08-08T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 7600,
+      "durationLabel": "2h 06m",
+      "durationBin": "2-3小时",
+      "viewCount": 52172,
+      "likeCount": 1340,
+      "commentCount": 448,
+      "topic": "商业与出海",
+      "topics": [
+        "商业与出海"
+      ],
+      "guestIndustry": "金融投资",
+      "guestIndustries": [
+        "金融投资"
+      ],
+      "viewGrowth": 15049,
+      "channelViewIndex": 7.95,
+      "isHit": true,
+      "hitReasons": [
+        "高于本频道中位数 3 倍",
+        "嘉宾行业具备传播势能：金融投资",
+        "高需求话题：商业与出海"
+      ]
+    },
+    {
+      "id": "demo-video-6-4",
+      "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+      "channelId": "demo-channel-6",
+      "channelTitle": "Chinese Podcast With Shenglan",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 高校/研究机构 嘉宾 EP04",
+      "description": "中文学习、社会文化解释类长音视频。",
+      "publishedAt": "2025-10-28T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 7600,
+      "durationLabel": "2h 06m",
+      "durationBin": "2-3小时",
+      "viewCount": 47544,
+      "likeCount": 916,
+      "commentCount": 399,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 953,
+      "channelViewIndex": 1.14,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构",
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-3-5",
+      "url": "https://fuyoutiandi.com/0",
+      "channelId": "demo-channel-3",
+      "channelTitle": "蜉蝣天地 Meanders",
+      "title": "美股与宏观周期：普通投资者该看什么信号？ | 高校/研究机构 嘉宾 EP05",
+      "description": "视频播客，文化、媒介、社会观察。",
+      "publishedAt": "2025-05-22T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 7600,
+      "durationLabel": "2h 06m",
+      "durationBin": "2-3小时",
+      "viewCount": 45522,
+      "likeCount": 584,
+      "commentCount": 354,
+      "topic": "财经投资",
+      "topics": [
+        "财经投资"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 9897,
+      "channelViewIndex": 1.0,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构"
+      ]
+    },
+    {
+      "id": "demo-video-1-7",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "出海公司如何找到第一批海外客户？ | 科技公司 嘉宾 EP07",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2025-11-19T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 9300,
+      "durationLabel": "2h 35m",
+      "durationBin": "2-3小时",
+      "viewCount": 44483,
+      "likeCount": 633,
+      "commentCount": 127,
+      "topic": "商业与出海",
+      "topics": [
+        "商业与出海"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 9225,
+      "channelViewIndex": 1.58,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司",
+        "高需求话题：商业与出海"
+      ]
+    },
+    {
+      "id": "demo-video-4-10",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "美股与宏观周期：普通投资者该看什么信号？ | 媒体/内容 嘉宾 EP10",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2025-07-15T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 7600,
+      "durationLabel": "2h 06m",
+      "durationBin": "2-3小时",
+      "viewCount": 44380,
+      "likeCount": 1955,
+      "commentCount": 277,
+      "topic": "财经投资",
+      "topics": [
+        "财经投资"
+      ],
+      "guestIndustry": "媒体/内容",
+      "guestIndustries": [
+        "媒体/内容"
+      ],
+      "viewGrowth": 9221,
+      "channelViewIndex": 1.37,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-7-1",
+      "url": "https://podcasts.apple.com/us/podcast/stan%E7%9A%84%E8%81%8A%E6%94%BF%E4%BA%8B%E5%85%92%E9%A0%BB%E9%81%93/id1653368960",
+      "channelId": "demo-channel-7",
+      "channelTitle": "Stan的聊政事兒頻道",
+      "title": "出海公司如何找到第一批海外客户？ | 科技公司 嘉宾 EP01",
+      "description": "时政新闻讨论类节目。",
+      "publishedAt": "2025-05-08T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 1500,
+      "durationLabel": "25m",
+      "durationBin": "10-30分钟",
+      "viewCount": 44349,
+      "likeCount": 1812,
+      "commentCount": 304,
+      "topic": "商业与出海",
+      "topics": [
+        "商业与出海"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 13392,
+      "channelViewIndex": 1.64,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司",
+        "高需求话题：商业与出海"
+      ]
+    },
+    {
+      "id": "demo-video-1-9",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "在上海工作的外国人如何理解中国职场？ | 科技公司 嘉宾 EP09",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2026-01-08T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 1500,
+      "durationLabel": "25m",
+      "durationBin": "10-30分钟",
+      "viewCount": 43386,
+      "likeCount": 1571,
+      "commentCount": 349,
+      "topic": "语言与跨文化",
+      "topics": [
+        "语言与跨文化"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 7132,
+      "channelViewIndex": 1.54,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司"
+      ]
+    },
+    {
+      "id": "demo-video-6-5",
+      "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+      "channelId": "demo-channel-6",
+      "channelTitle": "Chinese Podcast With Shenglan",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 国际人才 嘉宾 EP05",
+      "description": "中文学习、社会文化解释类长音视频。",
+      "publishedAt": "2026-05-02T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 43382,
+      "likeCount": 1648,
+      "commentCount": 386,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 8260,
+      "channelViewIndex": 1.04,
+      "isHit": false,
+      "hitReasons": [
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-3-1",
+      "url": "https://fuyoutiandi.com/0",
+      "channelId": "demo-channel-3",
+      "channelTitle": "蜉蝣天地 Meanders",
+      "title": "在上海工作的外国人如何理解中国职场？ | 媒体/内容 嘉宾 EP01",
+      "description": "视频播客，文化、媒介、社会观察。",
+      "publishedAt": "2026-05-10T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 42307,
+      "likeCount": 1371,
+      "commentCount": 47,
+      "topic": "语言与跨文化",
+      "topics": [
+        "语言与跨文化"
+      ],
+      "guestIndustry": "媒体/内容",
+      "guestIndustries": [
+        "媒体/内容"
+      ],
+      "viewGrowth": 2153,
+      "channelViewIndex": 0.93,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-4-8",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "内容创作者为什么越来越需要长期主义？ | 国际人才 嘉宾 EP08",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2025-10-20T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 5200,
+      "durationLabel": "1h 26m",
+      "durationBin": "1-1.5小时",
+      "viewCount": 42205,
+      "likeCount": 1338,
+      "commentCount": 157,
+      "topic": "媒体与内容",
+      "topics": [
+        "媒体与内容"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 5057,
+      "channelViewIndex": 1.31,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-2-9",
+      "url": "https://linktr.ee/banqiu",
+      "channelId": "demo-channel-2",
+      "channelTitle": "半球观察",
+      "title": "内容创作者为什么越来越需要长期主义？ | 金融投资 嘉宾 EP09",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2026-05-01T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 1500,
+      "durationLabel": "25m",
+      "durationBin": "10-30分钟",
+      "viewCount": 41825,
+      "likeCount": 797,
+      "commentCount": 171,
+      "topic": "媒体与内容",
+      "topics": [
+        "媒体与内容"
+      ],
+      "guestIndustry": "金融投资",
+      "guestIndustries": [
+        "金融投资"
+      ],
+      "viewGrowth": 6962,
+      "channelViewIndex": 0.61,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：金融投资"
+      ]
+    },
+    {
+      "id": "demo-video-6-3",
+      "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+      "channelId": "demo-channel-6",
+      "channelTitle": "Chinese Podcast With Shenglan",
+      "title": "美股与宏观周期：普通投资者该看什么信号？ | 科技公司 嘉宾 EP03",
+      "description": "中文学习、社会文化解释类长音视频。",
+      "publishedAt": "2025-08-12T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 41576,
+      "likeCount": 1666,
+      "commentCount": 43,
+      "topic": "财经投资",
+      "topics": [
+        "财经投资"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 3976,
+      "channelViewIndex": 1.0,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司"
+      ]
+    },
+    {
+      "id": "demo-video-6-9",
+      "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+      "channelId": "demo-channel-6",
+      "channelTitle": "Chinese Podcast With Shenglan",
+      "title": "内容创作者为什么越来越需要长期主义？ | 国际人才 嘉宾 EP09",
+      "description": "中文学习、社会文化解释类长音视频。",
+      "publishedAt": "2025-08-10T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 5200,
+      "durationLabel": "1h 26m",
+      "durationBin": "1-1.5小时",
+      "viewCount": 41574,
+      "likeCount": 1106,
+      "commentCount": 371,
+      "topic": "媒体与内容",
+      "topics": [
+        "媒体与内容"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 10718,
+      "channelViewIndex": 1.0,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-1-5",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "和学者聊城市、青年与工作意义的变化 | 媒体/内容 嘉宾 EP05",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2025-10-26T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 41247,
+      "likeCount": 669,
+      "commentCount": 260,
+      "topic": "社会研究",
+      "topics": [
+        "社会研究"
+      ],
+      "guestIndustry": "媒体/内容",
+      "guestIndustries": [
+        "媒体/内容"
+      ],
+      "viewGrowth": 3049,
+      "channelViewIndex": 1.47,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-6-7",
+      "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+      "channelId": "demo-channel-6",
+      "channelTitle": "Chinese Podcast With Shenglan",
+      "title": "圆桌：国际局势变化如何影响华人生活？ | 国际人才 嘉宾 EP07",
+      "description": "中文学习、社会文化解释类长音视频。",
+      "publishedAt": "2025-11-10T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 6100,
+      "durationLabel": "1h 41m",
+      "durationBin": "1.5-2小时",
+      "viewCount": 38999,
+      "likeCount": 1167,
+      "commentCount": 273,
+      "topic": "时政国际",
+      "topics": [
+        "时政国际"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 4015,
+      "channelViewIndex": 0.94,
+      "isHit": false,
+      "hitReasons": [
+        "高需求话题：时政国际"
+      ]
+    },
+    {
+      "id": "demo-video-1-6",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "内容创作者为什么越来越需要长期主义？ | 国际人才 嘉宾 EP06",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2025-10-13T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 1500,
+      "durationLabel": "25m",
+      "durationBin": "10-30分钟",
+      "viewCount": 38230,
+      "likeCount": 678,
+      "commentCount": 288,
+      "topic": "媒体与内容",
+      "topics": [
+        "媒体与内容"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 4110,
+      "channelViewIndex": 1.36,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-6-6",
+      "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+      "channelId": "demo-channel-6",
+      "channelTitle": "Chinese Podcast With Shenglan",
+      "title": "圆桌：国际局势变化如何影响华人生活？ | 高校/研究机构 嘉宾 EP06",
+      "description": "中文学习、社会文化解释类长音视频。",
+      "publishedAt": "2025-06-26T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 36475,
+      "likeCount": 733,
+      "commentCount": 289,
+      "topic": "时政国际",
+      "topics": [
+        "时政国际"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 4297,
+      "channelViewIndex": 0.88,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构",
+        "高需求话题：时政国际"
+      ]
+    },
+    {
+      "id": "demo-video-2-2",
+      "url": "https://linktr.ee/banqiu",
+      "channelId": "demo-channel-2",
+      "channelTitle": "半球观察",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 高校/研究机构 嘉宾 EP02",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2025-08-17T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 6100,
+      "durationLabel": "1h 41m",
+      "durationBin": "1.5-2小时",
+      "viewCount": 36469,
+      "likeCount": 1439,
+      "commentCount": 232,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 6132,
+      "channelViewIndex": 0.53,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构",
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-4-12",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "美股与宏观周期：普通投资者该看什么信号？ | 国际人才 嘉宾 EP12",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2026-03-16T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 3900,
+      "durationLabel": "1h 05m",
+      "durationBin": "1-1.5小时",
+      "viewCount": 33978,
+      "likeCount": 1019,
+      "commentCount": 104,
+      "topic": "财经投资",
+      "topics": [
+        "财经投资"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 3189,
+      "channelViewIndex": 1.05,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-7-4",
+      "url": "https://podcasts.apple.com/us/podcast/stan%E7%9A%84%E8%81%8A%E6%94%BF%E4%BA%8B%E5%85%92%E9%A0%BB%E9%81%93/id1653368960",
+      "channelId": "demo-channel-7",
+      "channelTitle": "Stan的聊政事兒頻道",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 科技公司 嘉宾 EP04",
+      "description": "时政新闻讨论类节目。",
+      "publishedAt": "2025-11-19T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 6100,
+      "durationLabel": "1h 41m",
+      "durationBin": "1.5-2小时",
+      "viewCount": 33431,
+      "likeCount": 1288,
+      "commentCount": 160,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 2518,
+      "channelViewIndex": 1.24,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司",
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-1-8",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "圆桌：国际局势变化如何影响华人生活？ | 国际人才 嘉宾 EP08",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2025-04-02T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 6100,
+      "durationLabel": "1h 41m",
+      "durationBin": "1.5-2小时",
+      "viewCount": 32637,
+      "likeCount": 1178,
+      "commentCount": 170,
+      "topic": "时政国际",
+      "topics": [
+        "时政国际"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 3005,
+      "channelViewIndex": 1.16,
+      "isHit": false,
+      "hitReasons": [
+        "高需求话题：时政国际"
+      ]
+    },
+    {
+      "id": "demo-video-2-5",
+      "url": "https://linktr.ee/banqiu",
+      "channelId": "demo-channel-2",
+      "channelTitle": "半球观察",
+      "title": "内容创作者为什么越来越需要长期主义？ | 制造业 嘉宾 EP05",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2025-04-21T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 31019,
+      "likeCount": 1172,
+      "commentCount": 235,
+      "topic": "媒体与内容",
+      "topics": [
+        "媒体与内容"
+      ],
+      "guestIndustry": "制造业",
+      "guestIndustries": [
+        "制造业"
+      ],
+      "viewGrowth": 3098,
+      "channelViewIndex": 0.45,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-4-4",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "内容创作者为什么越来越需要长期主义？ | 国际人才 嘉宾 EP04",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2026-04-20T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 1500,
+      "durationLabel": "25m",
+      "durationBin": "10-30分钟",
+      "viewCount": 30615,
+      "likeCount": 867,
+      "commentCount": 146,
+      "topic": "媒体与内容",
+      "topics": [
+        "媒体与内容"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 6507,
+      "channelViewIndex": 0.95,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-2-7",
+      "url": "https://linktr.ee/banqiu",
+      "channelId": "demo-channel-2",
+      "channelTitle": "半球观察",
+      "title": "内容创作者为什么越来越需要长期主义？ | 制造业 嘉宾 EP07",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2025-10-28T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 30580,
+      "likeCount": 1276,
+      "commentCount": 168,
+      "topic": "媒体与内容",
+      "topics": [
+        "媒体与内容"
+      ],
+      "guestIndustry": "制造业",
+      "guestIndustries": [
+        "制造业"
+      ],
+      "viewGrowth": 1983,
+      "channelViewIndex": 0.45,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-4-5",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "圆桌：国际局势变化如何影响华人生活？ | 高校/研究机构 嘉宾 EP05",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2025-09-30T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 6100,
+      "durationLabel": "1h 41m",
+      "durationBin": "1.5-2小时",
+      "viewCount": 29353,
+      "likeCount": 1258,
+      "commentCount": 58,
+      "topic": "时政国际",
+      "topics": [
+        "时政国际"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 704,
+      "channelViewIndex": 0.91,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构",
+        "高需求话题：时政国际"
+      ]
+    },
+    {
+      "id": "demo-video-7-6",
+      "url": "https://podcasts.apple.com/us/podcast/stan%E7%9A%84%E8%81%8A%E6%94%BF%E4%BA%8B%E5%85%92%E9%A0%BB%E9%81%93/id1653368960",
+      "channelId": "demo-channel-7",
+      "channelTitle": "Stan的聊政事兒頻道",
+      "title": "出海公司如何找到第一批海外客户？ | 高校/研究机构 嘉宾 EP06",
+      "description": "时政新闻讨论类节目。",
+      "publishedAt": "2026-03-09T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 27771,
+      "likeCount": 769,
+      "commentCount": 49,
+      "topic": "商业与出海",
+      "topics": [
+        "商业与出海"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 3709,
+      "channelViewIndex": 1.03,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构",
+        "高需求话题：商业与出海"
+      ]
+    },
+    {
+      "id": "demo-video-7-2",
+      "url": "https://podcasts.apple.com/us/podcast/stan%E7%9A%84%E8%81%8A%E6%94%BF%E4%BA%8B%E5%85%92%E9%A0%BB%E9%81%93/id1653368960",
+      "channelId": "demo-channel-7",
+      "channelTitle": "Stan的聊政事兒頻道",
+      "title": "和学者聊城市、青年与工作意义的变化 | 科技公司 嘉宾 EP02",
+      "description": "时政新闻讨论类节目。",
+      "publishedAt": "2025-12-27T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 26319,
+      "likeCount": 403,
+      "commentCount": 49,
+      "topic": "社会研究",
+      "topics": [
+        "社会研究"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 2238,
+      "channelViewIndex": 0.97,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司"
+      ]
+    },
+    {
+      "id": "demo-video-3-4",
+      "url": "https://fuyoutiandi.com/0",
+      "channelId": "demo-channel-3",
+      "channelTitle": "蜉蝣天地 Meanders",
+      "title": "在上海工作的外国人如何理解中国职场？ | 媒体/内容 嘉宾 EP04",
+      "description": "视频播客，文化、媒介、社会观察。",
+      "publishedAt": "2026-04-10T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 26222,
+      "likeCount": 727,
+      "commentCount": 192,
+      "topic": "语言与跨文化",
+      "topics": [
+        "语言与跨文化"
+      ],
+      "guestIndustry": "媒体/内容",
+      "guestIndustries": [
+        "媒体/内容"
+      ],
+      "viewGrowth": 5531,
+      "channelViewIndex": 0.58,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-7-5",
+      "url": "https://podcasts.apple.com/us/podcast/stan%E7%9A%84%E8%81%8A%E6%94%BF%E4%BA%8B%E5%85%92%E9%A0%BB%E9%81%93/id1653368960",
+      "channelId": "demo-channel-7",
+      "channelTitle": "Stan的聊政事兒頻道",
+      "title": "圆桌：国际局势变化如何影响华人生活？ | 高校/研究机构 嘉宾 EP05",
+      "description": "时政新闻讨论类节目。",
+      "publishedAt": "2025-11-20T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 24990,
+      "likeCount": 535,
+      "commentCount": 128,
+      "topic": "时政国际",
+      "topics": [
+        "时政国际"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 636,
+      "channelViewIndex": 0.92,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构",
+        "高需求话题：时政国际"
+      ]
+    },
+    {
+      "id": "demo-video-7-3",
+      "url": "https://podcasts.apple.com/us/podcast/stan%E7%9A%84%E8%81%8A%E6%94%BF%E4%BA%8B%E5%85%92%E9%A0%BB%E9%81%93/id1653368960",
+      "channelId": "demo-channel-7",
+      "channelTitle": "Stan的聊政事兒頻道",
+      "title": "美股与宏观周期：普通投资者该看什么信号？ | 科技公司 嘉宾 EP03",
+      "description": "时政新闻讨论类节目。",
+      "publishedAt": "2026-01-29T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 7600,
+      "durationLabel": "2h 06m",
+      "durationBin": "2-3小时",
+      "viewCount": 24335,
+      "likeCount": 1093,
+      "commentCount": 150,
+      "topic": "财经投资",
+      "topics": [
+        "财经投资"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 4127,
+      "channelViewIndex": 0.9,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司"
+      ]
+    },
+    {
+      "id": "demo-video-1-10",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 科技公司 嘉宾 EP10",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2026-04-21T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 6100,
+      "durationLabel": "1h 41m",
+      "durationBin": "1.5-2小时",
+      "viewCount": 23528,
+      "likeCount": 412,
+      "commentCount": 48,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 2963,
+      "channelViewIndex": 0.84,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司",
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-4-7",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "在上海工作的外国人如何理解中国职场？ | 国际人才 嘉宾 EP07",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2025-09-22T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 7600,
+      "durationLabel": "2h 06m",
+      "durationBin": "2-3小时",
+      "viewCount": 17665,
+      "likeCount": 515,
+      "commentCount": 53,
+      "topic": "语言与跨文化",
+      "topics": [
+        "语言与跨文化"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 5109,
+      "channelViewIndex": 0.55,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-4-11",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "出海公司如何找到第一批海外客户？ | 制造业 嘉宾 EP11",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2026-01-24T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 15971,
+      "likeCount": 560,
+      "commentCount": 48,
+      "topic": "商业与出海",
+      "topics": [
+        "商业与出海"
+      ],
+      "guestIndustry": "制造业",
+      "guestIndustries": [
+        "制造业"
+      ],
+      "viewGrowth": 3994,
+      "channelViewIndex": 0.49,
+      "isHit": false,
+      "hitReasons": [
+        "高需求话题：商业与出海"
+      ]
+    },
+    {
+      "id": "demo-video-8-6",
+      "url": "https://chineseradioseattle.com/newstalk_by_three/",
+      "channelId": "demo-channel-8",
+      "channelTitle": "西雅图中文电台 时事三人谈",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 科技公司 嘉宾 EP06",
+      "description": "海外华人时事圆桌。",
+      "publishedAt": "2025-05-20T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 3900,
+      "durationLabel": "1h 05m",
+      "durationBin": "1-1.5小时",
+      "viewCount": 12967,
+      "likeCount": 266,
+      "commentCount": 30,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 802,
+      "channelViewIndex": 1.98,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司",
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-5-1",
+      "url": "https://podbay.fm/p/money-manta",
+      "channelId": "demo-channel-5",
+      "channelTitle": "Money Manta",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 制造业 嘉宾 EP01",
+      "description": "美股、投资、公司研究。",
+      "publishedAt": "2025-09-24T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 9300,
+      "durationLabel": "2h 35m",
+      "durationBin": "2-3小时",
+      "viewCount": 12237,
+      "likeCount": 472,
+      "commentCount": 28,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "制造业",
+      "guestIndustries": [
+        "制造业"
+      ],
+      "viewGrowth": 1269,
+      "channelViewIndex": 1.53,
+      "isHit": false,
+      "hitReasons": [
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-1-12",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "和学者聊城市、青年与工作意义的变化 | 高校/研究机构 嘉宾 EP12",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2025-05-13T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 9300,
+      "durationLabel": "2h 35m",
+      "durationBin": "2-3小时",
+      "viewCount": 11752,
+      "likeCount": 401,
+      "commentCount": 66,
+      "topic": "社会研究",
+      "topics": [
+        "社会研究"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 225,
+      "channelViewIndex": 0.42,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构"
+      ]
+    },
+    {
+      "id": "demo-video-3-2",
+      "url": "https://fuyoutiandi.com/0",
+      "channelId": "demo-channel-3",
+      "channelTitle": "蜉蝣天地 Meanders",
+      "title": "美股与宏观周期：普通投资者该看什么信号？ | 媒体/内容 嘉宾 EP02",
+      "description": "视频播客，文化、媒介、社会观察。",
+      "publishedAt": "2025-11-17T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 6100,
+      "durationLabel": "1h 41m",
+      "durationBin": "1.5-2小时",
+      "viewCount": 11308,
+      "likeCount": 166,
+      "commentCount": 87,
+      "topic": "财经投资",
+      "topics": [
+        "财经投资"
+      ],
+      "guestIndustry": "媒体/内容",
+      "guestIndustries": [
+        "媒体/内容"
+      ],
+      "viewGrowth": 1868,
+      "channelViewIndex": 0.25,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-5-3",
+      "url": "https://podbay.fm/p/money-manta",
+      "channelId": "demo-channel-5",
+      "channelTitle": "Money Manta",
+      "title": "美股与宏观周期：普通投资者该看什么信号？ | 国际人才 嘉宾 EP03",
+      "description": "美股、投资、公司研究。",
+      "publishedAt": "2025-12-03T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 9300,
+      "durationLabel": "2h 35m",
+      "durationBin": "2-3小时",
+      "viewCount": 11115,
+      "likeCount": 205,
+      "commentCount": 65,
+      "topic": "财经投资",
+      "topics": [
+        "财经投资"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 412,
+      "channelViewIndex": 1.39,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-4-9",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 金融投资 嘉宾 EP09",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2026-04-16T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 10748,
+      "likeCount": 300,
+      "commentCount": 49,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "金融投资",
+      "guestIndustries": [
+        "金融投资"
+      ],
+      "viewGrowth": 2284,
+      "channelViewIndex": 0.33,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：金融投资",
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-2-11",
+      "url": "https://linktr.ee/banqiu",
+      "channelId": "demo-channel-2",
+      "channelTitle": "半球观察",
+      "title": "在上海工作的外国人如何理解中国职场？ | 媒体/内容 嘉宾 EP11",
+      "description": "中日美科技与社会生活对谈。",
+      "publishedAt": "2026-04-18T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 6100,
+      "durationLabel": "1h 41m",
+      "durationBin": "1.5-2小时",
+      "viewCount": 10628,
+      "likeCount": 255,
+      "commentCount": 33,
+      "topic": "语言与跨文化",
+      "topics": [
+        "语言与跨文化"
+      ],
+      "guestIndustry": "媒体/内容",
+      "guestIndustries": [
+        "媒体/内容"
+      ],
+      "viewGrowth": 1701,
+      "channelViewIndex": 0.16,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-6-2",
+      "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+      "channelId": "demo-channel-6",
+      "channelTitle": "Chinese Podcast With Shenglan",
+      "title": "在上海工作的外国人如何理解中国职场？ | 国际人才 嘉宾 EP02",
+      "description": "中文学习、社会文化解释类长音视频。",
+      "publishedAt": "2026-02-19T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 5200,
+      "durationLabel": "1h 26m",
+      "durationBin": "1-1.5小时",
+      "viewCount": 10376,
+      "likeCount": 155,
+      "commentCount": 43,
+      "topic": "语言与跨文化",
+      "topics": [
+        "语言与跨文化"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 3407,
+      "channelViewIndex": 0.25,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-5-5",
+      "url": "https://podbay.fm/p/money-manta",
+      "channelId": "demo-channel-5",
+      "channelTitle": "Money Manta",
+      "title": "在上海工作的外国人如何理解中国职场？ | 科技公司 嘉宾 EP05",
+      "description": "美股、投资、公司研究。",
+      "publishedAt": "2025-05-01T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 10120,
+      "likeCount": 235,
+      "commentCount": 87,
+      "topic": "语言与跨文化",
+      "topics": [
+        "语言与跨文化"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 3106,
+      "channelViewIndex": 1.26,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司"
+      ]
+    },
+    {
+      "id": "demo-video-1-11",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "出海公司如何找到第一批海外客户？ | 高校/研究机构 嘉宾 EP11",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2025-12-15T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 7600,
+      "durationLabel": "2h 06m",
+      "durationBin": "2-3小时",
+      "viewCount": 9829,
+      "likeCount": 396,
+      "commentCount": 13,
+      "topic": "商业与出海",
+      "topics": [
+        "商业与出海"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 462,
+      "channelViewIndex": 0.35,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构",
+        "高需求话题：商业与出海"
+      ]
+    },
+    {
+      "id": "demo-video-8-3",
+      "url": "https://chineseradioseattle.com/newstalk_by_three/",
+      "channelId": "demo-channel-8",
+      "channelTitle": "西雅图中文电台 时事三人谈",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 媒体/内容 嘉宾 EP03",
+      "description": "海外华人时事圆桌。",
+      "publishedAt": "2026-02-09T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 5200,
+      "durationLabel": "1h 26m",
+      "durationBin": "1-1.5小时",
+      "viewCount": 9423,
+      "likeCount": 113,
+      "commentCount": 45,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "媒体/内容",
+      "guestIndustries": [
+        "媒体/内容"
+      ],
+      "viewGrowth": 620,
+      "channelViewIndex": 1.44,
+      "isHit": false,
+      "hitReasons": [
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-6-8",
+      "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+      "channelId": "demo-channel-6",
+      "channelTitle": "Chinese Podcast With Shenglan",
+      "title": "圆桌：国际局势变化如何影响华人生活？ | 科技公司 嘉宾 EP08",
+      "description": "中文学习、社会文化解释类长音视频。",
+      "publishedAt": "2026-03-02T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 9292,
+      "likeCount": 238,
+      "commentCount": 46,
+      "topic": "时政国际",
+      "topics": [
+        "时政国际"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 2195,
+      "channelViewIndex": 0.22,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司",
+        "高需求话题：时政国际"
+      ]
+    },
+    {
+      "id": "demo-video-5-4",
+      "url": "https://podbay.fm/p/money-manta",
+      "channelId": "demo-channel-5",
+      "channelTitle": "Money Manta",
+      "title": "美股与宏观周期：普通投资者该看什么信号？ | 高校/研究机构 嘉宾 EP04",
+      "description": "美股、投资、公司研究。",
+      "publishedAt": "2026-04-22T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 7600,
+      "durationLabel": "2h 06m",
+      "durationBin": "2-3小时",
+      "viewCount": 8003,
+      "likeCount": 280,
+      "commentCount": 29,
+      "topic": "财经投资",
+      "topics": [
+        "财经投资"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 549,
+      "channelViewIndex": 1.0,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构"
+      ]
+    },
+    {
+      "id": "demo-video-1-2",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "圆桌：国际局势变化如何影响华人生活？ | 科技公司 嘉宾 EP02",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2026-04-08T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 7949,
+      "likeCount": 351,
+      "commentCount": 52,
+      "topic": "时政国际",
+      "topics": [
+        "时政国际"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 2390,
+      "channelViewIndex": 0.28,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司",
+        "高需求话题：时政国际"
+      ]
+    },
+    {
+      "id": "demo-video-1-4",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "内容创作者为什么越来越需要长期主义？ | 科技公司 嘉宾 EP04",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2026-05-09T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 9300,
+      "durationLabel": "2h 35m",
+      "durationBin": "2-3小时",
+      "viewCount": 7664,
+      "likeCount": 240,
+      "commentCount": 48,
+      "topic": "媒体与内容",
+      "topics": [
+        "媒体与内容"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 1779,
+      "channelViewIndex": 0.27,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司"
+      ]
+    },
+    {
+      "id": "demo-video-1-3",
+      "url": "https://www.podchaser.com/podcasts/-5133355",
+      "channelId": "demo-channel-1",
+      "channelTitle": "出海相对论",
+      "title": "内容创作者为什么越来越需要长期主义？ | 制造业 嘉宾 EP03",
+      "description": "出海、AI、SaaS、科技商业深度对谈。",
+      "publishedAt": "2025-10-10T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 9300,
+      "durationLabel": "2h 35m",
+      "durationBin": "2-3小时",
+      "viewCount": 6396,
+      "likeCount": 94,
+      "commentCount": 17,
+      "topic": "媒体与内容",
+      "topics": [
+        "媒体与内容"
+      ],
+      "guestIndustry": "制造业",
+      "guestIndustries": [
+        "制造业"
+      ],
+      "viewGrowth": 1731,
+      "channelViewIndex": 0.23,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-4-1",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z",
+      "channelId": "demo-channel-4",
+      "channelTitle": "Dashu Mandarin Podcast",
+      "title": "和学者聊城市、青年与工作意义的变化 | 科技公司 嘉宾 EP01",
+      "description": "中文学习者向三人聊天式视频播客。",
+      "publishedAt": "2025-07-25T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 3900,
+      "durationLabel": "1h 05m",
+      "durationBin": "1-1.5小时",
+      "viewCount": 5238,
+      "likeCount": 167,
+      "commentCount": 44,
+      "topic": "社会研究",
+      "topics": [
+        "社会研究"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 265,
+      "channelViewIndex": 0.16,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司"
+      ]
+    },
+    {
+      "id": "demo-video-5-6",
+      "url": "https://podbay.fm/p/money-manta",
+      "channelId": "demo-channel-5",
+      "channelTitle": "Money Manta",
+      "title": "对话 AI 创业者：大模型落地到底卡在哪里？ | 科技公司 嘉宾 EP06",
+      "description": "美股、投资、公司研究。",
+      "publishedAt": "2025-05-25T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 4520,
+      "likeCount": 161,
+      "commentCount": 36,
+      "topic": "AI与科技",
+      "topics": [
+        "AI与科技"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 551,
+      "channelViewIndex": 0.56,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司",
+        "高需求话题：AI与科技"
+      ]
+    },
+    {
+      "id": "demo-video-8-4",
+      "url": "https://chineseradioseattle.com/newstalk_by_three/",
+      "channelId": "demo-channel-8",
+      "channelTitle": "西雅图中文电台 时事三人谈",
+      "title": "和学者聊城市、青年与工作意义的变化 | 金融投资 嘉宾 EP04",
+      "description": "海外华人时事圆桌。",
+      "publishedAt": "2025-04-26T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 3900,
+      "durationLabel": "1h 05m",
+      "durationBin": "1-1.5小时",
+      "viewCount": 3694,
+      "likeCount": 122,
+      "commentCount": 7,
+      "topic": "社会研究",
+      "topics": [
+        "社会研究"
+      ],
+      "guestIndustry": "金融投资",
+      "guestIndustries": [
+        "金融投资"
+      ],
+      "viewGrowth": 91,
+      "channelViewIndex": 0.56,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：金融投资"
+      ]
+    },
+    {
+      "id": "demo-video-5-2",
+      "url": "https://podbay.fm/p/money-manta",
+      "channelId": "demo-channel-5",
+      "channelTitle": "Money Manta",
+      "title": "美股与宏观周期：普通投资者该看什么信号？ | 科技公司 嘉宾 EP02",
+      "description": "美股、投资、公司研究。",
+      "publishedAt": "2025-11-29T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 1793,
+      "likeCount": 72,
+      "commentCount": 11,
+      "topic": "财经投资",
+      "topics": [
+        "财经投资"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 431,
+      "channelViewIndex": 0.22,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司"
+      ]
+    },
+    {
+      "id": "demo-video-5-7",
+      "url": "https://podbay.fm/p/money-manta",
+      "channelId": "demo-channel-5",
+      "channelTitle": "Money Manta",
+      "title": "和学者聊城市、青年与工作意义的变化 | 高校/研究机构 嘉宾 EP07",
+      "description": "美股、投资、公司研究。",
+      "publishedAt": "2025-05-27T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 11400,
+      "durationLabel": "3h 10m",
+      "durationBin": "3小时以上",
+      "viewCount": 1643,
+      "likeCount": 41,
+      "commentCount": 4,
+      "topic": "社会研究",
+      "topics": [
+        "社会研究"
+      ],
+      "guestIndustry": "高校/研究机构",
+      "guestIndustries": [
+        "高校/研究机构"
+      ],
+      "viewGrowth": 325,
+      "channelViewIndex": 0.21,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：高校/研究机构"
+      ]
+    },
+    {
+      "id": "demo-video-8-5",
+      "url": "https://chineseradioseattle.com/newstalk_by_three/",
+      "channelId": "demo-channel-8",
+      "channelTitle": "西雅图中文电台 时事三人谈",
+      "title": "在上海工作的外国人如何理解中国职场？ | 国际人才 嘉宾 EP05",
+      "description": "海外华人时事圆桌。",
+      "publishedAt": "2025-11-18T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 3900,
+      "durationLabel": "1h 05m",
+      "durationBin": "1-1.5小时",
+      "viewCount": 1246,
+      "likeCount": 50,
+      "commentCount": 4,
+      "topic": "语言与跨文化",
+      "topics": [
+        "语言与跨文化"
+      ],
+      "guestIndustry": "国际人才",
+      "guestIndustries": [
+        "国际人才"
+      ],
+      "viewGrowth": 297,
+      "channelViewIndex": 0.19,
+      "isHit": false,
+      "hitReasons": []
+    },
+    {
+      "id": "demo-video-8-1",
+      "url": "https://chineseradioseattle.com/newstalk_by_three/",
+      "channelId": "demo-channel-8",
+      "channelTitle": "西雅图中文电台 时事三人谈",
+      "title": "圆桌：国际局势变化如何影响华人生活？ | 科技公司 嘉宾 EP01",
+      "description": "海外华人时事圆桌。",
+      "publishedAt": "2025-12-30T00:00:00Z",
+      "thumbnail": "",
+      "durationSeconds": 2700,
+      "durationLabel": "45m",
+      "durationBin": "30-60分钟",
+      "viewCount": 1069,
+      "likeCount": 21,
+      "commentCount": 1,
+      "topic": "时政国际",
+      "topics": [
+        "时政国际"
+      ],
+      "guestIndustry": "科技公司",
+      "guestIndustries": [
+        "科技公司"
+      ],
+      "viewGrowth": 294,
+      "channelViewIndex": 0.16,
+      "isHit": false,
+      "hitReasons": [
+        "嘉宾行业具备传播势能：科技公司",
+        "高需求话题：时政国际"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "YouTube Data API search.list",
+      "url": "https://developers.google.com/youtube/v3/docs/search/list"
+    },
+    {
+      "title": "YouTube Data API quota cost",
+      "url": "https://developers.google.cn/youtube/v3/determine_quota_cost?hl=en"
+    },
+    {
+      "title": "GitHub Pages custom workflows",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages"
+    },
+    {
+      "title": "出海相对论",
+      "url": "https://www.podchaser.com/podcasts/-5133355"
+    },
+    {
+      "title": "半球观察",
+      "url": "https://linktr.ee/banqiu"
+    },
+    {
+      "title": "蜉蝣天地 Meanders",
+      "url": "https://fuyoutiandi.com/0"
+    },
+    {
+      "title": "Dashu Mandarin Podcast",
+      "url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z"
+    },
+    {
+      "title": "Money Manta",
+      "url": "https://podbay.fm/p/money-manta"
+    },
+    {
+      "title": "Chinese Podcast With Shenglan",
+      "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast"
+    },
+    {
+      "title": "Stan的聊政事兒頻道",
+      "url": "https://podcasts.apple.com/us/podcast/stan%E7%9A%84%E8%81%8A%E6%94%BF%E4%BA%8B%E5%85%92%E9%A0%BB%E9%81%93/id1653368960"
+    },
+    {
+      "title": "西雅图中文电台 时事三人谈",
+      "url": "https://chineseradioseattle.com/newstalk_by_three/"
+    }
+  ],
+  "summary": {
+    "channelCount": 8,
+    "videoCount": 70,
+    "totalSubscribers": 277853,
+    "totalSampleViews": 3410581,
+    "videoViewsMean": 48723,
+    "videoViewsP50": 31828,
+    "videoViewsP90": 84172,
+    "videoViewsVariance": 9140177032,
+    "videoViewsStdDev": 95604,
+    "durationMeanMinutes": 105.5,
+    "durationP50Minutes": 101.7,
+    "durationP90Minutes": 190.0,
+    "durationBins": [
+      {
+        "name": "10-30分钟",
+        "count": 7,
+        "share": 0.1
+      },
+      {
+        "name": "30-60分钟",
+        "count": 13,
+        "share": 0.18571428571428572
+      },
+      {
+        "name": "1-1.5小时",
+        "count": 10,
+        "share": 0.14285714285714285
+      },
+      {
+        "name": "1.5-2小时",
+        "count": 9,
+        "share": 0.12857142857142856
+      },
+      {
+        "name": "2-3小时",
+        "count": 18,
+        "share": 0.2571428571428571
+      },
+      {
+        "name": "3小时以上",
+        "count": 13,
+        "share": 0.18571428571428572
+      }
+    ],
+    "topics": [
+      {
+        "name": "AI与科技",
+        "count": 12
+      },
+      {
+        "name": "财经投资",
+        "count": 11
+      },
+      {
+        "name": "媒体与内容",
+        "count": 11
+      },
+      {
+        "name": "时政国际",
+        "count": 9
+      },
+      {
+        "name": "语言与跨文化",
+        "count": 9
+      },
+      {
+        "name": "社会研究",
+        "count": 9
+      },
+      {
+        "name": "商业与出海",
+        "count": 9
+      }
+    ],
+    "guestIndustries": [
+      {
+        "name": "科技公司",
+        "count": 19
+      },
+      {
+        "name": "国际人才",
+        "count": 14
+      },
+      {
+        "name": "高校/研究机构",
+        "count": 12
+      },
+      {
+        "name": "金融投资",
+        "count": 11
+      },
+      {
+        "name": "制造业",
+        "count": 7
+      },
+      {
+        "name": "媒体/内容",
+        "count": 7
+      }
+    ],
+    "hitVideos": [
+      {
+        "id": "demo-video-2-4",
+        "url": "https://linktr.ee/banqiu",
+        "channelId": "demo-channel-2",
+        "channelTitle": "半球观察",
+        "title": "圆桌：国际局势变化如何影响华人生活？ | 国际人才 嘉宾 EP04",
+        "description": "中日美科技与社会生活对谈。",
+        "publishedAt": "2026-04-25T00:00:00Z",
+        "thumbnail": "",
+        "durationSeconds": 7600,
+        "durationLabel": "2h 06m",
+        "durationBin": "2-3小时",
+        "viewCount": 757589,
+        "likeCount": 9477,
+        "commentCount": 6605,
+        "topic": "时政国际",
+        "topics": [
+          "时政国际"
+        ],
+        "guestIndustry": "国际人才",
+        "guestIndustries": [
+          "国际人才"
+        ],
+        "viewGrowth": 179837,
+        "channelViewIndex": 11.07,
+        "isHit": true,
+        "hitReasons": [
+          "样本 P90 以上",
+          "高于本频道中位数 3 倍",
+          "高需求话题：时政国际"
+        ]
+      },
+      {
+        "id": "demo-video-6-1",
+        "url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast",
+        "channelId": "demo-channel-6",
+        "channelTitle": "Chinese Podcast With Shenglan",
+        "title": "美股与宏观周期：普通投资者该看什么信号？ | 国际人才 嘉宾 EP01",
+        "description": "中文学习、社会文化解释类长音视频。",
+        "publishedAt": "2025-12-07T00:00:00Z",
+        "thumbnail": "",
+        "durationSeconds": 2700,
+        "durationLabel": "45m",
+        "durationBin": "30-60分钟",
+        "viewCount": 312216,
+        "likeCount": 13828,
+        "commentCount": 2018,
+        "topic": "财经投资",
+        "topics": [
+          "财经投资"
+        ],
+        "guestIndustry": "国际人才",
+        "guestIndustries": [
+          "国际人才"
+        ],
+        "viewGrowth": 83268,
+        "channelViewIndex": 7.51,
+        "isHit": true,
+        "hitReasons": [
+          "样本 P90 以上",
+          "高于本频道中位数 3 倍"
+        ]
+      },
+      {
+        "id": "demo-video-2-6",
+        "url": "https://linktr.ee/banqiu",
+        "channelId": "demo-channel-2",
+        "channelTitle": "半球观察",
+        "title": "美股与宏观周期：普通投资者该看什么信号？ | 科技公司 嘉宾 EP06",
+        "description": "中日美科技与社会生活对谈。",
+        "publishedAt": "2025-11-17T00:00:00Z",
+        "thumbnail": "",
+        "durationSeconds": 9300,
+        "durationLabel": "2h 35m",
+        "durationBin": "2-3小时",
+        "viewCount": 130931,
+        "likeCount": 5169,
+        "commentCount": 244,
+        "topic": "财经投资",
+        "topics": [
+          "财经投资"
+        ],
+        "guestIndustry": "科技公司",
+        "guestIndustries": [
+          "科技公司"
+        ],
+        "viewGrowth": 16191,
+        "channelViewIndex": 1.91,
+        "isHit": true,
+        "hitReasons": [
+          "样本 P90 以上",
+          "嘉宾行业具备传播势能：科技公司"
+        ]
+      },
+      {
+        "id": "demo-video-3-3",
+        "url": "https://fuyoutiandi.com/0",
+        "channelId": "demo-channel-3",
+        "channelTitle": "蜉蝣天地 Meanders",
+        "title": "内容创作者为什么越来越需要长期主义？ | 金融投资 嘉宾 EP03",
+        "description": "视频播客，文化、媒介、社会观察。",
+        "publishedAt": "2025-07-04T00:00:00Z",
+        "thumbnail": "",
+        "durationSeconds": 9300,
+        "durationLabel": "2h 35m",
+        "durationBin": "2-3小时",
+        "viewCount": 118321,
+        "likeCount": 4379,
+        "commentCount": 1012,
+        "topic": "媒体与内容",
+        "topics": [
+          "媒体与内容"
+        ],
+        "guestIndustry": "金融投资",
+        "guestIndustries": [
+          "金融投资"
+        ],
+        "viewGrowth": 25974,
+        "channelViewIndex": 2.6,
+        "isHit": true,
+        "hitReasons": [
+          "样本 P90 以上",
+          "嘉宾行业具备传播势能：金融投资"
+        ]
+      },
+      {
+        "id": "demo-video-2-10",
+        "url": "https://linktr.ee/banqiu",
+        "channelId": "demo-channel-2",
+        "channelTitle": "半球观察",
+        "title": "在上海工作的外国人如何理解中国职场？ | 金融投资 嘉宾 EP10",
+        "description": "中日美科技与社会生活对谈。",
+        "publishedAt": "2025-11-15T00:00:00Z",
+        "thumbnail": "",
+        "durationSeconds": 11400,
+        "durationLabel": "3h 10m",
+        "durationBin": "3小时以上",
+        "viewCount": 103143,
+        "likeCount": 3188,
+        "commentCount": 311,
+        "topic": "语言与跨文化",
+        "topics": [
+          "语言与跨文化"
+        ],
+        "guestIndustry": "金融投资",
+        "guestIndustries": [
+          "金融投资"
+        ],
+        "viewGrowth": 17069,
+        "channelViewIndex": 1.51,
+        "isHit": true,
+        "hitReasons": [
+          "样本 P90 以上",
+          "嘉宾行业具备传播势能：金融投资"
+        ]
+      },
+      {
+        "id": "demo-video-3-7",
+        "url": "https://fuyoutiandi.com/0",
+        "channelId": "demo-channel-3",
+        "channelTitle": "蜉蝣天地 Meanders",
+        "title": "和学者聊城市、青年与工作意义的变化 | 金融投资 嘉宾 EP07",
+        "description": "视频播客，文化、媒介、社会观察。",
+        "publishedAt": "2025-10-16T00:00:00Z",
+        "thumbnail": "",
+        "durationSeconds": 2700,
+        "durationLabel": "45m",
+        "durationBin": "30-60分钟",
+        "viewCount": 92712,
+        "likeCount": 2346,
+        "commentCount": 354,
+        "topic": "社会研究",
+        "topics": [
+          "社会研究"
+        ],
+        "guestIndustry": "金融投资",
+        "guestIndustries": [
+          "金融投资"
+        ],
+        "viewGrowth": 10055,
+        "channelViewIndex": 2.04,
+        "isHit": true,
+        "hitReasons": [
+          "样本 P90 以上",
+          "嘉宾行业具备传播势能：金融投资"
+        ]
+      },
+      {
+        "id": "demo-video-2-3",
+        "url": "https://linktr.ee/banqiu",
+        "channelId": "demo-channel-2",
+        "channelTitle": "半球观察",
+        "title": "出海公司如何找到第一批海外客户？ | 金融投资 嘉宾 EP03",
+        "description": "中日美科技与社会生活对谈。",
+        "publishedAt": "2026-03-14T00:00:00Z",
+        "thumbnail": "",
+        "durationSeconds": 2700,
+        "durationLabel": "45m",
+        "durationBin": "30-60分钟",
+        "viewCount": 85662,
+        "likeCount": 2196,
+        "commentCount": 589,
+        "topic": "商业与出海",
+        "topics": [
+          "商业与出海"
+        ],
+        "guestIndustry": "金融投资",
+        "guestIndustries": [
+          "金融投资"
+        ],
+        "viewGrowth": 16762,
+        "channelViewIndex": 1.25,
+        "isHit": true,
+        "hitReasons": [
+          "样本 P90 以上",
+          "嘉宾行业具备传播势能：金融投资",
+          "高需求话题：商业与出海"
+        ]
+      },
+      {
+        "id": "demo-video-8-2",
+        "url": "https://chineseradioseattle.com/newstalk_by_three/",
+        "channelId": "demo-channel-8",
+        "channelTitle": "西雅图中文电台 时事三人谈",
+        "title": "出海公司如何找到第一批海外客户？ | 金融投资 嘉宾 EP02",
+        "description": "海外华人时事圆桌。",
+        "publishedAt": "2025-08-08T00:00:00Z",
+        "thumbnail": "",
+        "durationSeconds": 7600,
+        "durationLabel": "2h 06m",
+        "durationBin": "2-3小时",
+        "viewCount": 52172,
+        "likeCount": 1340,
+        "commentCount": 448,
+        "topic": "商业与出海",
+        "topics": [
+          "商业与出海"
+        ],
+        "guestIndustry": "金融投资",
+        "guestIndustries": [
+          "金融投资"
+        ],
+        "viewGrowth": 15049,
+        "channelViewIndex": 7.95,
+        "isHit": true,
+        "hitReasons": [
+          "高于本频道中位数 3 倍",
+          "嘉宾行业具备传播势能：金融投资",
+          "高需求话题：商业与出海"
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "competitive_score": 78,
+    "radar": [
+      {
+        "axis": "嘉宾稀缺度",
+        "market": 62,
+        "your_channel": 86
+      },
+      {
+        "axis": "AI/科技匹配",
+        "market": 70,
+        "your_channel": 92
+      },
+      {
+        "axis": "跨文化差异化",
+        "market": 45,
+        "your_channel": 88
+      },
+      {
+        "axis": "时长适配",
+        "market": 72,
+        "your_channel": 76
+      },
+      {
+        "axis": "商业化潜力",
+        "market": 68,
+        "your_channel": 82
+      },
+      {
+        "axis": "持续供给",
+        "market": 64,
+        "your_channel": 74
+      }
+    ],
+    "positioning": [
+      "当前样本中高频内容集中在 AI与科技, 财经投资, 媒体与内容，高频嘉宾行业集中在 科技公司, 国际人才, 高校/研究机构。你的教授、高管、上海外国人组合与 AI、数字制造、社会研究有交叉，但“上海现场 + 跨文化 + 技术产业”的定位更稀缺。",
+      "市场常见有效时长落在 2-3小时。把 3 小时对谈拆为 3 集 1 小时是可行方案，但每一集必须有独立标题、独立问题和独立结论，不能让观众觉得只是长录音切块。",
+      "建议每位嘉宾录制前先设计 3 个章节：行业判断、个人经历、争议问题。这样拆集后每集都有明确点击理由，也更利于搜索和推荐系统理解。"
+    ],
+    "avoid": [
+      "避免标题只写嘉宾姓名。标题要同时出现议题、冲突或收益点，例如“AI 工厂为什么难落地”“外国高管如何看上海制造业”。",
+      "避免 3 集连续发布同质封面和同质标题。三集应分别面向不同搜索意图，封面关键词也要变化。",
+      "涉及时政、国别关系、公司内幕、未公开商业数据、个人隐私、医疗金融建议时要提前做事实核查和授权边界，必要时在简介中写明观点归属和风险提示。",
+      "教授类内容容易过学术化，高管类内容容易变公司宣传，外国人内容容易落入猎奇。主持人需要持续把讨论拉回具体案例、具体数字和可验证经验。"
+    ]
+  }
+}

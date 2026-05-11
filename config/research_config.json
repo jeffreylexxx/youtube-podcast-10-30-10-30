@@ -1,0 +1,108 @@
+{
+  "project": {
+    "title": "华语 YouTube 长视频播客对话节目研究",
+    "description": "面向中文语言为主、华人群体观看的 YouTube 视频播客/访谈/圆桌类长视频。重点观察 10 分钟以上、两人或多人坐谈形式的内容表现。",
+    "owner_channel_positioning": {
+      "guest_types": ["大学教授", "商业公司高管", "在上海工作的外国人"],
+      "industries": ["科技", "人工智能", "数字制造", "社会研究", "媒体"],
+      "publishing_plan": "每位嘉宾录制约 3 小时对谈，拆分为 3 集约 1 小时节目陆续上传。"
+    }
+  },
+  "seed_channels": [
+    {
+      "name": "出海相对论",
+      "query": "出海相对论 YouTube AI 出海 播客",
+      "notes": "出海、AI、SaaS、科技商业深度对谈。",
+      "source_url": "https://www.podchaser.com/podcasts/-5133355"
+    },
+    {
+      "name": "半球观察",
+      "query": "半球观察 YouTube 播客",
+      "notes": "中日美科技与社会生活对谈。",
+      "source_url": "https://linktr.ee/banqiu"
+    },
+    {
+      "name": "蜉蝣天地 Meanders",
+      "query": "蜉蝣天地 Meanders YouTube 播客",
+      "notes": "视频播客，文化、媒介、社会观察。",
+      "source_url": "https://fuyoutiandi.com/0"
+    },
+    {
+      "name": "Dashu Mandarin Podcast",
+      "query": "Dashu Mandarin Podcast YouTube Chinese podcast",
+      "notes": "中文学习者向三人聊天式视频播客。",
+      "source_url": "https://metacast.app/podcast/dashu-mandarin-podcast/BMtnN8Z2/filter/date/before/2025-03-24T13%3A35%3A50.000Z"
+    },
+    {
+      "name": "Money Manta",
+      "query": "Money Manta YouTube 播客 美股",
+      "notes": "美股、投资、公司研究。",
+      "source_url": "https://podbay.fm/p/money-manta"
+    },
+    {
+      "name": "Chinese Podcast With Shenglan",
+      "query": "Chinese Podcast With Shenglan YouTube",
+      "notes": "中文学习、社会文化解释类长音视频。",
+      "source_url": "https://www.chinesepodcastwithshenglan.com/%E6%92%AD%E5%AE%A2-podcast"
+    },
+    {
+      "name": "Stan的聊政事兒頻道",
+      "query": "Stan的聊政事兒頻道 YouTube 播客",
+      "notes": "时政新闻讨论类节目。",
+      "source_url": "https://podcasts.apple.com/us/podcast/stan%E7%9A%84%E8%81%8A%E6%94%BF%E4%BA%8B%E5%85%92%E9%A0%BB%E9%81%93/id1653368960"
+    },
+    {
+      "name": "西雅图中文电台 时事三人谈",
+      "query": "西雅图中文电台 时事三人谈 YouTube",
+      "notes": "海外华人时事圆桌。",
+      "source_url": "https://chineseradioseattle.com/newstalk_by_three/"
+    }
+  ],
+  "discovery_queries": [
+    "中文 播客 对话 YouTube",
+    "华语 podcast 访谈 YouTube",
+    "中文 长视频 播客 嘉宾 对谈",
+    "AI 出海 科技 播客 对话 中文",
+    "上海 外国人 访谈 中文 YouTube",
+    "教授 访谈 播客 中文 YouTube"
+  ],
+  "topic_taxonomy": {
+    "AI与科技": ["AI", "人工智能", "大模型", "机器人", "芯片", "SaaS", "数据库", "科技", "软件", "算力", "创业"],
+    "商业与出海": ["出海", "创业", "商业", "公司", "品牌", "管理", "增长", "融资", "CEO", "高管", "产品"],
+    "社会研究": ["社会", "城市", "教育", "人口", "青年", "文化", "阶层", "历史", "研究", "学者"],
+    "媒体与内容": ["媒体", "内容", "创作者", "YouTube", "播客", "采访", "新闻", "传播"],
+    "财经投资": ["美股", "投资", "股票", "宏观", "金融", "经济", "市场", "资产"],
+    "时政国际": ["政治", "时政", "国际", "美国", "中国", "台湾", "日本", "欧洲", "外交"],
+    "语言与跨文化": ["中文", "语言", "外国人", "文化差异", "跨文化", "学习中文", "上海", "海外"]
+  },
+  "industry_taxonomy": {
+    "高校/研究机构": ["教授", "大学", "学者", "博士", "研究员", "实验室", "院士"],
+    "科技公司": ["AI", "人工智能", "软件", "SaaS", "数据库", "机器人", "芯片", "科技公司"],
+    "制造业": ["制造", "工厂", "硬件", "供应链", "工业", "数字制造"],
+    "媒体/内容": ["媒体", "记者", "主播", "创作者", "作家", "出版"],
+    "金融投资": ["投资", "基金", "VC", "PE", "美股", "金融", "经济学家"],
+    "国际人才": ["外国人", "海外", "在上海", "expat", "跨文化", "外企"]
+  },
+  "duration_bins": [
+    { "key": "10-30分钟", "min_seconds": 600, "max_seconds": 1800 },
+    { "key": "30-60分钟", "min_seconds": 1800, "max_seconds": 3600 },
+    { "key": "1-1.5小时", "min_seconds": 3600, "max_seconds": 5400 },
+    { "key": "1.5-2小时", "min_seconds": 5400, "max_seconds": 7200 },
+    { "key": "2-3小时", "min_seconds": 7200, "max_seconds": 10800 },
+    { "key": "3小时以上", "min_seconds": 10800, "max_seconds": null }
+  ],
+  "sources": [
+    {
+      "title": "YouTube Data API search.list",
+      "url": "https://developers.google.com/youtube/v3/docs/search/list"
+    },
+    {
+      "title": "YouTube Data API quota cost",
+      "url": "https://developers.google.cn/youtube/v3/determine_quota_cost?hl=en"
+    },
+    {
+      "title": "GitHub Pages custom workflows",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages"
+    }
+  ]
+}
