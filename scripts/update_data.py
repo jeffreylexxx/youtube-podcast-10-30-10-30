@@ -14,6 +14,7 @@ import statistics
 import sys
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
 from pathlib import Path
 from typing import Any
@@ -64,6 +65,19 @@ def yget(endpoint: str, params: dict[str, Any], api_key: str, retries: int = 3) 
         try:
             with urllib.request.urlopen(url, timeout=30) as response:
                 return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            body = ""
+            try:
+                body = exc.read().decode("utf-8", errors="replace")
+            except Exception:
+                body = ""
+            if attempt == retries - 1:
+                detail = body[:800].replace("\n", " ")
+                raise RuntimeError(f"YouTube API request failed: {endpoint} HTTP {exc.code} {exc.reason}. {detail}") from exc
+            if exc.code in {400, 401, 403, 404}:
+                detail = body[:800].replace("\n", " ")
+                raise RuntimeError(f"YouTube API request failed: {endpoint} HTTP {exc.code} {exc.reason}. {detail}") from exc
+            time.sleep(2**attempt)
         except Exception as exc:
             if attempt == retries - 1:
                 raise RuntimeError(f"YouTube API request failed: {endpoint} {exc}") from exc
@@ -515,6 +529,26 @@ def save_snapshot(snapshot: dict[str, Any], write_history: bool) -> None:
             f.write("\n")
 
 
+def fallback_snapshot(config: dict[str, Any], error: Exception) -> dict[str, Any]:
+    if LATEST_PATH.exists():
+        with LATEST_PATH.open("r", encoding="utf-8") as f:
+            snapshot = json.load(f)
+        snapshot["snapshot_mode"] = "stale"
+        snapshot["generated_at"] = now_utc()
+        snapshot["methodology"] = (
+            "YouTube API live fetch failed, so this page is showing the most recent saved snapshot. "
+            f"Last update error: {error}"
+        )
+        return snapshot
+    snapshot = demo_snapshot(config)
+    snapshot["snapshot_mode"] = "demo_api_error"
+    snapshot["methodology"] = (
+        "YouTube API live fetch failed and no saved snapshot was available, so this page is showing demo data. "
+        f"Last update error: {error}"
+    )
+    return snapshot
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--max-channels", type=int, default=int(os.getenv("MAX_CHANNELS", "24")))
@@ -524,7 +558,14 @@ def main() -> int:
     args = parser.parse_args()
     config = load_config()
     api_key = os.getenv("YOUTUBE_API_KEY", "").strip()
-    snapshot = live_snapshot(config, api_key, args.max_channels, args.max_videos_per_channel) if api_key and not args.force_demo else demo_snapshot(config)
+    if api_key and not args.force_demo:
+        try:
+            snapshot = live_snapshot(config, api_key, args.max_channels, args.max_videos_per_channel)
+        except Exception as exc:
+            print(f"WARNING: live YouTube fetch failed; using fallback snapshot. {exc}", file=sys.stderr)
+            snapshot = fallback_snapshot(config, exc)
+    else:
+        snapshot = demo_snapshot(config)
     save_snapshot(snapshot, args.write_history)
     print(f"Wrote {LATEST_PATH} ({snapshot['snapshot_mode']}, {snapshot['summary']['videoCount']} videos)")
     return 0
