@@ -27,6 +27,9 @@ concurrency:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,6 +40,7 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch and analyze YouTube data
+        if: github.event_name != 'push'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           MAX_CHANNELS: "28"
@@ -44,6 +48,7 @@ jobs:
         run: python scripts/update_data.py --write-history
 
       - name: Commit updated snapshot
+        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
